@@ -1,0 +1,423 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "drake",
+  "evidence": {
+    "core_skills": [
+      "drake-build-and-install",
+      "drake-inputs-and-modeling",
+      "drake-simulation-workflows",
+      "drake-pages",
+      "drake-getting-started",
+      "drake-tools"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/drake-build-and-install.md",
+      "skills/.evidence/drake-inputs-and-modeling.md",
+      "skills/.evidence/drake-simulation-workflows.md",
+      "skills/.evidence/drake-pages.md",
+      "skills/.evidence/drake-getting-started.md",
+      "skills/.evidence/drake-tools.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/drake-advanced-topics/SKILL.md",
+        "skills/drake-advanced-topics/references/doc_map.md",
+        "skills/drake-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/drake-advanced-topics/SKILL.md",
+        "skills/drake-advanced-topics/references/doc_map.md",
+        "skills/drake-advanced-topics/references/source_map.md",
+        "skills/drake-build-and-install/SKILL.md",
+        "skills/drake-common/SKILL.md",
+        "skills/drake-common/references/doc_map.md",
+        "skills/drake-common/references/source_map.md",
+        "skills/drake-developer-guide/SKILL.md",
+        "skills/drake-developer-guide/references/doc_map.md",
+        "skills/drake-developer-guide/references/source_map.md",
+        "skills/drake-getting-started/SKILL.md",
+        "skills/drake-images/SKILL.md",
+        "skills/drake-images/references/doc_map.md",
+        "skills/drake-images/references/source_map.md",
+        "skills/drake-includes/SKILL.md",
+        "skills/drake-includes/references/doc_map.md",
+        "skills/drake-includes/references/source_map.md",
+        "skills/drake-index/SKILL.md",
+        "skills/drake-inputs-and-modeling/SKILL.md",
+        "skills/drake-manipulation/SKILL.md",
+        "skills/drake-manipulation/references/doc_map.md",
+        "skills/drake-manipulation/references/source_map.md",
+        "skills/drake-pages/SKILL.md",
+        "skills/drake-pydrake/SKILL.md",
+        "skills/drake-pydrake/references/doc_map.md",
+        "skills/drake-pydrake/references/source_map.md",
+        "skills/drake-simulation-workflows/SKILL.md",
+        "skills/drake-tools/SKILL.md"
+      ],
+      "deleted": [
+        "skills/drake-common/SKILL.md",
+        "skills/drake-common/references/doc_map.md",
+        "skills/drake-common/references/source_map.md",
+        "skills/drake-developer-guide/SKILL.md",
+        "skills/drake-developer-guide/references/doc_map.md",
+        "skills/drake-developer-guide/references/source_map.md",
+        "skills/drake-images/SKILL.md",
+        "skills/drake-images/references/doc_map.md",
+        "skills/drake-images/references/source_map.md",
+        "skills/drake-includes/SKILL.md",
+        "skills/drake-includes/references/doc_map.md",
+        "skills/drake-includes/references/source_map.md",
+        "skills/drake-manipulation/SKILL.md",
+        "skills/drake-manipulation/references/doc_map.md",
+        "skills/drake-manipulation/references/source_map.md",
+        "skills/drake-pydrake/SKILL.md",
+        "skills/drake-pydrake/references/doc_map.md",
+        "skills/drake-pydrake/references/source_map.md"
+      ],
+      "modified": [
+        "skills/drake-build-and-install/SKILL.md",
+        "skills/drake-getting-started/SKILL.md",
+        "skills/drake-index/SKILL.md",
+        "skills/drake-inputs-and-modeling/SKILL.md",
+        "skills/drake-pages/SKILL.md",
+        "skills/drake-simulation-workflows/SKILL.md",
+        "skills/drake-tools/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/drake-advanced-topics/references/source_map.md",
+        "skills/drake-api-and-scripting/SKILL.md",
+        "skills/drake-api-and-scripting/references/doc_map.md",
+        "skills/drake-api-and-scripting/references/source_map.md",
+        "skills/drake-build-and-install/references/source_map.md",
+        "skills/drake-examples-and-tutorials/SKILL.md",
+        "skills/drake-examples-and-tutorials/references/doc_map.md",
+        "skills/drake-examples-and-tutorials/references/source_map.md",
+        "skills/drake-getting-started/references/source_map.md",
+        "skills/drake-inputs-and-modeling/references/source_map.md",
+        "skills/drake-multibody/SKILL.md",
+        "skills/drake-multibody/references/doc_map.md",
+        "skills/drake-multibody/references/source_map.md",
+        "skills/drake-pages/references/source_map.md",
+        "skills/drake-parallel-hpc/SKILL.md",
+        "skills/drake-parallel-hpc/references/doc_map.md",
+        "skills/drake-parallel-hpc/references/source_map.md",
+        "skills/drake-release-notes/SKILL.md",
+        "skills/drake-release-notes/references/doc_map.md",
+        "skills/drake-release-notes/references/source_map.md",
+        "skills/drake-simulation-workflows/references/source_map.md",
+        "skills/drake-third-party/SKILL.md",
+        "skills/drake-third-party/references/source_map.md",
+        "skills/drake-tools/references/source_map.md",
+        "skills/drake-troubleshooting/SKILL.md",
+        "skills/drake-troubleshooting/references/doc_map.md",
+        "skills/drake-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/drake-advanced-topics/references/source_map.md",
+        "skills/drake-api-and-scripting/SKILL.md",
+        "skills/drake-api-and-scripting/references/doc_map.md",
+        "skills/drake-api-and-scripting/references/source_map.md",
+        "skills/drake-build-and-install/references/source_map.md",
+        "skills/drake-examples-and-tutorials/SKILL.md",
+        "skills/drake-examples-and-tutorials/references/doc_map.md",
+        "skills/drake-examples-and-tutorials/references/source_map.md",
+        "skills/drake-getting-started/references/source_map.md",
+        "skills/drake-inputs-and-modeling/references/source_map.md",
+        "skills/drake-multibody/SKILL.md",
+        "skills/drake-multibody/references/doc_map.md",
+        "skills/drake-multibody/references/source_map.md",
+        "skills/drake-pages/references/source_map.md",
+        "skills/drake-parallel-hpc/SKILL.md",
+        "skills/drake-parallel-hpc/references/doc_map.md",
+        "skills/drake-parallel-hpc/references/source_map.md",
+        "skills/drake-release-notes/SKILL.md",
+        "skills/drake-release-notes/references/doc_map.md",
+        "skills/drake-release-notes/references/source_map.md",
+        "skills/drake-simulation-workflows/references/source_map.md",
+        "skills/drake-third-party/SKILL.md",
+        "skills/drake-third-party/references/source_map.md",
+        "skills/drake-tools/references/source_map.md",
+        "skills/drake-troubleshooting/SKILL.md",
+        "skills/drake-troubleshooting/references/doc_map.md",
+        "skills/drake-troubleshooting/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Repository uses module-style top-level source roots instead of a single src/ directory.",
+      "Tests are distributed across many nested */test directories; some roots are intentionally broad to preserve coverage.",
+      "Generator syntax issue in sci-skills-generator/scripts/generate_skills_folder.py was patched to allow deterministic dry-run execution."
+    ],
+    "package_name": "drake",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "bindings",
+      "common",
+      "geometry",
+      "lcm",
+      "lcmtypes",
+      "manipulation",
+      "math",
+      "multibody",
+      "perception",
+      "planning",
+      "solvers",
+      "systems",
+      "visualization",
+      "examples",
+      "tutorials",
+      "tools",
+      "cmake"
+    ],
+    "test_dirs": [
+      "bindings/pydrake/test",
+      "common/test",
+      "doc/doxygen_cxx/test",
+      "examples",
+      "geometry/test",
+      "lcm/test",
+      "lcmtypes/test",
+      "manipulation",
+      "math/test",
+      "multibody",
+      "perception/test",
+      "planning/test",
+      "solvers/test",
+      "systems",
+      "tools",
+      "tutorials/test",
+      "visualization/test"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake",
+  "run_id": "compile_20260304T202851641772Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "drake-api-and-scripting",
+      "drake-build-and-install",
+      "drake-common",
+      "drake-developer-guide",
+      "drake-examples-and-tutorials",
+      "drake-getting-started",
+      "drake-images",
+      "drake-includes",
+      "drake-index",
+      "drake-inputs-and-modeling",
+      "drake-manipulation",
+      "drake-multibody",
+      "drake-pages",
+      "drake-parallel-hpc",
+      "drake-pydrake",
+      "drake-release-notes",
+      "drake-simulation-workflows",
+      "drake-third-party",
+      "drake-tools",
+      "drake-troubleshooting"
+    ],
+    "core_skill_ids": [
+      "drake-build-and-install",
+      "drake-inputs-and-modeling",
+      "drake-simulation-workflows",
+      "drake-pages",
+      "drake-getting-started",
+      "drake-tools"
+    ],
+    "deferred_gaps": [
+      "Decide whether source ranking should de-prioritize tooling-heavy roots (tools/) for user-facing topics.",
+      "After pass 2 generation, verify topic names for Drake-specific clarity and rename where needed.",
+      "Pass 3 must validate that each topic has both doc_map and source_map with actionable entry points."
+    ],
+    "goal": "Generate and audit a deterministic docs-first Drake skills set (passes 2/3) with strong routing and high-signal core workflows.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route user requests to the correct topic skill",
+          "Enforce docs-first escalation path",
+          "Expose discovered docs/tutorial/test/source roots"
+        ],
+        "reason": "All downstream responses depend on a stable first-hop router across docs, examples, tests, and source maps.",
+        "skill_id": "drake-index",
+        "source_hints": [
+          "doc",
+          "examples",
+          "tutorials",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Bazel/CMake build paths",
+          "Python wheel/bindings setup",
+          "Platform/toolchain troubleshooting"
+        ],
+        "reason": "Build/install issues are high-frequency and gate all other workflows.",
+        "skill_id": "drake-build-and-install",
+        "source_hints": [
+          "doc",
+          "setup",
+          "tools/install",
+          "CMakeLists.txt",
+          "MODULE.bazel"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Multibody model construction/parsing",
+          "Geometry and scene setup",
+          "Input parameterization patterns"
+        ],
+        "reason": "Core modeling and system setup is central to most Drake usage.",
+        "skill_id": "drake-inputs-and-modeling",
+        "source_hints": [
+          "doc",
+          "multibody",
+          "geometry",
+          "examples"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Diagram/system composition",
+          "Simulator stepping and integration controls",
+          "Run/restart/output workflow anchors"
+        ],
+        "reason": "End-to-end simulation execution and runtime controls drive practical user outcomes.",
+        "skill_id": "drake-simulation-workflows",
+        "source_hints": [
+          "doc",
+          "systems",
+          "examples",
+          "tutorials"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Python API entry points",
+          "Common binding patterns",
+          "Docs-to-source symbol lookup handoff"
+        ],
+        "reason": "pydrake API usage is a primary user interface and must map cleanly to docs/examples/tests.",
+        "skill_id": "drake-api-and-scripting",
+        "source_hints": [
+          "bindings",
+          "doc",
+          "examples",
+          "tutorials"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Frequent build/runtime failure signatures",
+          "Validation checks for simulation outputs",
+          "Escalation path to targeted source inspection"
+        ],
+        "reason": "A consolidated diagnostics skill reduces repeated failure-handling across all topics.",
+        "skill_id": "drake-troubleshooting",
+        "source_hints": [
+          "doc",
+          "tools",
+          "common",
+          "systems"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "drake-build-and-install",
+      "drake-inputs-and-modeling",
+      "drake-simulation-workflows",
+      "drake-pages",
+      "drake-getting-started",
+      "drake-tools"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-api-and-scripting/references/source_map.md: broken path references: bindings/pydrake/*",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-examples-and-tutorials/references/source_map.md: broken path references: examples/**/test",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-pages/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/drake-drake/skills/drake-tools/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "drake-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "drake-index",
+      "drake-build-and-install",
+      "drake-inputs-and-modeling",
+      "drake-simulation-workflows",
+      "drake-api-and-scripting",
+      "drake-troubleshooting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 15,
+    "source_inventory": {},
+    "source_links_total": 270,
+    "topic_skills": 14,
+    "warnings": []
+  }
+}

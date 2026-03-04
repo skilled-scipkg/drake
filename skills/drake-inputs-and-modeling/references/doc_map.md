@@ -1,0 +1,79 @@
+# drake documentation map: Inputs and Modeling
+
+Generated from documentation roots:
+- `doc`
+- `examples`
+- `tutorials`
+- `manipulation`
+- `multibody`
+- `systems`
+- `tools`
+- `common/test`
+- `geometry/test`
+- `lcm/test`
+- `lcmtypes/test`
+- `math/test`
+- `perception/test`
+- `planning/test`
+- `solvers/test`
+- `tutorials/test`
+- `visualization/test`
+- `bindings/pydrake/test`
+- `doc/doxygen_cxx/test`
+
+Total docs grouped in this topic: 53
+
+## File inventory
+- `doc/README.md` | title: Drake Website - Jekyll Information | headings: Drake Website - Jekyll Information; Directory Structure; Relevant Documentation
+- `examples/multibody/four_bar/README.md` | title: Four-Bar Linkage Example | headings: Four-Bar Linkage Example; Four-bar linkage model; Starting Configuration
+- `examples/multibody/strandbeest/README.md` | title: Strandbeest | headings: Strandbeest; Change the model; Run the example
+- `multibody/models/README.md` | title: Readme | headings: (no heading extracted)
+- `examples/kuka_iiwa_arm/models/README.md` | title: Readme | headings: (no heading extracted)
+- `doc/_release-notes/v1.9.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.8.0; Changes since v1.8.0
+- `doc/_release-notes/v1.8.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.7.0; Changes since v1.7.0
+- `doc/_release-notes/v1.7.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.6.0; Changes since v1.6.0
+- `doc/_release-notes/v1.6.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.5.0; Changes since v1.5.0
+- `doc/_release-notes/v1.50.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.49.0; Changes since v1.49.0
+- `doc/_release-notes/v1.49.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.48.0; Changes since v1.48.0
+- `doc/_release-notes/v1.47.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.46.0; Changes since v1.46.0
+- `doc/_release-notes/v1.46.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.45.0; Changes since v1.45.0
+- `doc/_release-notes/v1.45.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.44.0; Changes since v1.44.0
+- `doc/_release-notes/v1.44.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.43.0; Changes since v1.43.0
+- `doc/_release-notes/v1.43.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.42.0; Changes since v1.42.0
+- `doc/_release-notes/v1.42.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.41.0; Changes since v1.41.0
+- `doc/_release-notes/v1.41.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.40.0; Changes since v1.40.0
+- `doc/_release-notes/v1.40.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.39.0; Changes since v1.39.0
+- `doc/_release-notes/v1.39.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.38.0; Changes since v1.38.0
+- `doc/_release-notes/v1.38.0.md` | title: Announcements | headings: Announcements; Good:; Also okay:
+- `doc/_release-notes/v1.37.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.36.0; Changes since v1.36.0
+- `doc/_release-notes/v1.36.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.35.0; Changes since v1.35.0
+- `doc/_release-notes/v1.35.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.34.0; Changes since v1.34.0
+- `doc/_release-notes/v1.34.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.33.0; Changes since v1.33.0
+- `doc/_release-notes/v1.33.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.32.0; Changes since v1.32.0
+- `doc/_release-notes/v1.32.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.31.0; Changes since v1.31.0
+- `doc/_release-notes/v1.31.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.30.0; Changes since v1.30.0
+- `doc/_release-notes/v1.30.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.29.0; Changes since v1.29.0
+- `doc/_release-notes/v1.29.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.28.0; Changes since v1.28.0
+- `doc/_release-notes/v1.28.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.27.0; Changes since v1.27.0
+- `doc/_release-notes/v1.27.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.26.0; Changes since v1.26.0
+- `doc/_release-notes/v1.26.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.25.0; Changes since v1.25.0
+- `doc/_release-notes/v1.25.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.24.0; Changes since v1.24.0
+- `doc/_release-notes/v1.24.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.23.0; Changes since v1.23.0
+- `doc/_release-notes/v1.23.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.22.0; Changes since v1.22.0
+- `doc/_release-notes/v1.22.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.21.0; Changes since v1.21.0
+- `doc/_release-notes/v1.21.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.20.0; Changes since v1.20.0
+- `doc/_release-notes/v1.20.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.19.0; Changes since v1.19.0
+- `doc/_release-notes/v1.19.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.18.0; Changes since v1.18.0
+- `doc/_release-notes/v1.18.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.17.0; Changes since v1.17.0
+- `doc/_release-notes/v1.17.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.16.0; Changes since v1.16.0
+- `doc/_release-notes/v1.16.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.15.0; Changes since v1.15.0
+- `doc/_release-notes/v1.15.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.14.0; Changes since v1.14.0
+- `doc/_release-notes/v1.14.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.13.0; Changes since v1.13.0
+- `doc/_release-notes/v1.13.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.12.0; Other important changes
+- `doc/_release-notes/v1.12.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.11.0; Changes since v1.11.0
+- `doc/_release-notes/v1.11.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.10.0; Changes since v1.10.0
+- `doc/_release-notes/v1.10.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.9.0; Changes since v1.9.0
+- `doc/_release-notes/template.txt` | title: Announcements | headings: Announcements; Breaking changes since v{prior_version}; Changes since v{prior_version}
+- `doc/_pages/gallery.md` | title: Underactuated Robotics | headings: Underactuated Robotics; Manipulation; Manipulation class at MIT
+- `multibody/parsing/README_model_directives.md` | title: Syntax | headings: Syntax; Use; Scoping
+- `doc/_pages/model_version_control.md` | title: Adding Model Artifacts in Pull Requests | headings: Adding Model Artifacts in Pull Requests; Develop Changes Locally; Submit Changes in a Pull Request

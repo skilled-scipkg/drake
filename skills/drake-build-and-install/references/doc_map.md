@@ -1,0 +1,94 @@
+# drake documentation map: Build and Install
+
+Generated from documentation roots:
+- `doc`
+- `examples`
+- `tutorials`
+- `manipulation`
+- `multibody`
+- `systems`
+- `tools`
+- `common/test`
+- `geometry/test`
+- `lcm/test`
+- `lcmtypes/test`
+- `math/test`
+- `perception/test`
+- `planning/test`
+- `solvers/test`
+- `tutorials/test`
+- `visualization/test`
+- `bindings/pydrake/test`
+- `doc/doxygen_cxx/test`
+
+Total docs grouped in this topic: 68
+
+## File inventory
+- `examples/mass_spring_cloth/README.md` | title: Mass Spring Cloth Example | headings: Mass Spring Cloth Example; directory.; cd drake
+- `examples/simple_gripper/README.md` | title: Simple Gripper Simulation | headings: Simple Gripper Simulation; Fixed Gripper with Gravity; Prerequisites
+- `examples/planar_gripper/README.md` | title: Planar Gripper Example | headings: Planar Gripper Example; Prerequisites; Example
+- `examples/kinova_jaco_arm/README.md` | title: Jaco Arm Examples | headings: Jaco Arm Examples; Simulation; Prerequisites
+- `examples/hardware_sim/README.md` | title: Standalone Robot Simulations | headings: Standalone Robot Simulations; Running the Python demo from a Drake binary release; Running from a Drake source build
+- `examples/multibody/inclined_plane_with_body/README.md` | title: Simulate motion of a body (e.g., sphere or block) on an inclined plane. | headings: Simulate motion of a body (e.g., sphere or block) on an inclined plane.; Description; Building and running this example
+- `tools/release_engineering/dev/README.md` | title: Docker / Apt / S3 Release Process | headings: Docker / Apt / S3 Release Process; Initial Setup; Install required packages
+- `examples/allegro_hand/joint_control/README.md` | title: Allegro Hand - Joint Control Example | headings: Allegro Hand - Joint Control Example; Open a visualizer window; bazel run //tools:meldis -- --open-window &
+- `tools/workspace/vtk_internal/README.md` | title: Tips for Drake Developers when upgrading VTK | headings: Tips for Drake Developers when upgrading VTK; bazel build @vtk_internal//:vtkCommonCore; bazel build @vtk_internal//:vtkCommonDataModel
+- `tools/release_engineering/README.md` | title: $ sudo ./setup/ubuntu/install_prereqs.sh --with-maintainer-only | headings: $ sudo ./setup/ubuntu/install_prereqs.sh --with-maintainer-only
+- `tools/workspace/crate_universe/README.md` | title: Rust dependencies | headings: Rust dependencies; Upgrading
+- `tools/install/dockerhub/noble/README.md` | title: Docker Image for Docker Hub (Noble) | headings: Docker Image for Docker Hub (Noble); docker build -t robotlocomotion/drake:noble .; docker run -it robotlocomotion/drake:noble
+- `tools/install/dockerhub/jammy/README.md` | title: Docker Image for Docker Hub (Jammy) | headings: Docker Image for Docker Hub (Jammy); docker build -t robotlocomotion/drake:jammy .; docker run -it robotlocomotion/drake:jammy
+- `tools/install/README.md` | title: Readme | headings: (no heading extracted)
+- `tools/install/libdrake/README.md` | title: Readme | headings: (no heading extracted)
+- `tools/install/dummy/README.md` | title: Readme | headings: (no heading extracted)
+- `tutorials/_developers.md` | title: Local Editing | headings: Local Editing; Adding a New Tutorial; Code Review
+- `doc/_release-notes/v1.5.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.4.0; Changes since v1.4.0
+- `doc/_release-notes/v1.48.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.47.0; Changes since v1.47.0
+- `doc/_release-notes/v1.4.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.3.0; Changes since v1.3.0
+- `doc/_release-notes/v1.3.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.2.0; Changes since v1.2.0
+- `doc/_release-notes/v1.2.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.1.0; Changes since v1.1.0
+- `doc/_release-notes/v1.1.0.md` | title: Announcements | headings: Announcements; Breaking changes since v1.0.0; Changes since v1.0.0
+- `doc/_release-notes/v1.0.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.39.0; Changes since v0.39.0
+- `doc/_release-notes/v0.39.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.38.0; Changes since v0.38.0
+- `doc/_release-notes/v0.38.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.37.0; Changes since v0.37.0
+- `doc/_release-notes/v0.37.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.36.0; Changes since v0.36.0
+- `doc/_release-notes/v0.36.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.35.0; Changes since v0.35.0
+- `doc/_release-notes/v0.35.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.34.0; Changes since v0.34.0
+- `doc/_release-notes/v0.34.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.33.0; Changes since v0.33.0
+- `doc/_release-notes/v0.33.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.32.0; Changes since v0.32.0
+- `doc/_release-notes/v0.32.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.31.0; Changes since v0.31.0
+- `doc/_release-notes/v0.31.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.30.0; Changes since v0.30.0
+- `doc/_release-notes/v0.30.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.29.0; Changes since v0.29.0
+- `doc/_release-notes/v0.29.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.28.0; Changes since v0.28.0
+- `doc/_release-notes/v0.28.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.27.0; Changes since v0.27.0
+- `doc/_release-notes/v0.27.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.26.0; Changes since v0.26.0
+- `doc/_release-notes/v0.26.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.25.0; Changes since v0.25.0
+- `doc/_release-notes/v0.25.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.24.0; Changes since v0.24.0
+- `doc/_release-notes/v0.24.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.23.0; Changes since v0.23.0
+- `doc/_release-notes/v0.23.0.md` | title: Announcements | headings: Announcements; Breaking Changes since v0.22.0; Changes since v0.22.0
+- `doc/_release-notes/v0.22.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.21.0; Changes since v0.21.0:
+- `doc/_release-notes/v0.21.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.20.0; Changes since v0.20.0:
+- `doc/_release-notes/v0.20.0.md` | title: Announcements | headings: Announcements; Breaking changes since v0.19.0; Changes since v0.19.0:
+- `doc/_release-notes/v0.19.0.md` | title: Announcements | headings: Announcements; Breaking Changes since v0.18.0; Changes since v0.18.0:
+- `doc/_release-notes/v0.18.0.md` | title: Announcements | headings: Announcements; Breaking Changes since v0.17.0; Changes since v0.17.0:
+- `doc/_release-notes/v0.17.0.md` | title: Announcements | headings: Announcements; Breaking Changes since v0.16.1; Changes since v0.16.1:
+- `doc/_release-notes/v0.16.0.md` | title: Announcements | headings: Announcements; Breaking Changes since v0.15.0; Changes since v0.15.0:
+- `doc/_release-notes/v0.15.0.md` | title: Announcements | headings: Announcements; Breaking Changes; Dynamical Systems
+- `doc/_release-notes/v0.14.0.md` | title: Announcements | headings: Announcements; Breaking Changes; Dynamical Systems
+- `doc/_release-notes/v0.13.0.md` | title: Announcements | headings: Announcements; Breaking Changes; Dynamical Systems
+- `doc/_release-notes/v0.11.0.md` | title: Announcements | headings: Announcements; Changes since v0.10.0; Dynamical Systems
+- `doc/_release-notes/end_of_support.md` | title: Ubuntu packages | headings: Ubuntu packages; macOS packages; Wheel packages
+- `doc/_pages/vscode.md` | title: Setting up VS Code | headings: Setting up VS Code; C++ paths; C++ code formatting
+- `doc/_pages/stable.md` | title: Rolling releases | headings: Rolling releases; Stable API; C++
+- `doc/_pages/python_bindings.md` | title: Background | headings: Background; Installation; Using the Python Bindings
+- `doc/_pages/profiling.md` | title: Installation | headings: Installation; Compiling your example program; Capturing a trace
+- `doc/_pages/jenkins.md` | title: Scheduling an On-Demand Build | headings: Scheduling an On-Demand Build; Rebuilding via Reviewable; Scheduling Builds via the Jenkins User Interface
+- `doc/_pages/from_source.md` | title: New Users | headings: New Users; Obtaining the Source Code; Supported Configurations
+- `doc/_pages/from_binary.md` | title: Binary Packages | headings: Binary Packages; Stable Releases; Use as a C++ library
+- `doc/_pages/documentation_instructions.md` | title: Prerequisites | headings: Prerequisites; Previewing changes; Read the usage message.
+- `doc/_pages/code_review_checklist.md` | title: Does your code compile?  :facepalm: | headings: Does your code compile?  :facepalm:; Is the code the minimal set of what you want?; Are your classes, methods, arguments, and fields correctly named?
+- `doc/_pages/clion.md` | title: Using CLion with Bazel | headings: Using CLion with Bazel; Installing CLion; Upgrading CLion
+- `doc/_pages/apt.md` | title: APT Packages | headings: APT Packages; Stable Releases; Nightly Releases
+- `doc/_pages/development_on_mac.md` | title: Git Tools | headings: Git Tools; gitk; SourceTree
+- `doc/_pages/docker.md` | title: Docker Hub | headings: Docker Hub; Stable Releases; Nightly Releases
+- `doc/_pages/pip.md` | title: Pip Packages | headings: Pip Packages; Stable Releases; Nightly Releases
+- `doc/_pages/directory_structure.md` | title: Dev Directories | headings: Dev Directories; Controlling Dependencies; title: Directory Structure
